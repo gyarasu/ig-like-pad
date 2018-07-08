@@ -1,0 +1,18 @@
+{
+	"name": "Instagram Like Pad",
+	"short_name": "IG Like",
+	"version": "1.0",
+	"description": "Instagram manual Like tool. You can add Like only keyboard operation.",
+	"content_scripts": [
+		{
+			"matches": ["https://www.instagram.com/*"],
+			"js": ["script.js"]
+		}
+	],
+	"manifest_version": 2,
+	"icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+	}
+}
