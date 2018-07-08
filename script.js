@@ -19,7 +19,9 @@ function keydown() {
 		default:
 			break;
 	}
-	target.click();
+	if (target) {
+		target.click();		
+	}
 }
 
 function getTargetElement(className) {
