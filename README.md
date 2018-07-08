@@ -14,4 +14,4 @@ The Chrome extension for Instagram which make the operation easier to add "LIKE"
 |:--|:--|
 |←(left arrow)|show previous photo|
 |→(right arrow)|show next photo|
-|space|add like to current photo|
+|space or ↓(down arrow)|add like to current photo|

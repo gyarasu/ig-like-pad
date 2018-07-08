@@ -14,6 +14,7 @@ function keydown() {
 			target = getTargetElement(right_button);
 			break;
 		case 32:
+		case 40:
 			target = getTargetElement(like_button);
 			break;
 		default:
